@@ -49,7 +49,7 @@
                     color: #000000;
                   "
                 >
-                  {{$device_model}}
+                  {{$data['device_model']}}
                 </h2>
                 <p
                   style="
@@ -60,7 +60,7 @@
                     text-transform: capitalize;
                   "
                 >
-                  {{$issue}}
+                  {{$data['issue']}}
                 </p>
               </td>
             </tr>
@@ -101,7 +101,7 @@
                     margin: 10px 0px;
                   "
                 >
-                  {{$email}}
+                  {{$data['email']}}
                 </p>
                 <p
                   style="
@@ -111,7 +111,7 @@
                     margin: 10px 0px;
                   "
                 >
-                  {{$phone}}
+                  {{$data['phone']}}
                 </p>
                 <p
                   style="
@@ -121,7 +121,7 @@
                     margin: 10px 0px;
                   "
                 >
-                  {{$address}}
+                  {{$data['address']}}
                 </p>
               </td>
             </tr>
@@ -141,7 +141,7 @@
                     font-family: sans-serif;
                   "
                 >
-                  {{$device_type}}
+                  {{$data['device_type']}}
                 </p>
                 <a
                   href=""
@@ -157,7 +157,7 @@
                     font-family: sans-serif;
                   "
                 >
-                  {{$device_model}}
+                  {{$data['device_model']}}
                 </a>
               </td>
             </tr>
@@ -171,7 +171,7 @@
                     margin: 10px 0px 15px;
                   "
                 >
-                  {{$problem}}
+                  {{$data['problem']}}
                 </p>
                 <h3
                   style="
@@ -182,7 +182,7 @@
                     text-transform: capitalize;
                   "
                 >
-                  {{$firstname . ' ' . $lastname}}
+                  {{$data['firstname'] . ' ' . $data['lastname']}}
                 </h3>
               </td>
             </tr>

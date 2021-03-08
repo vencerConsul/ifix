@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Homepage;
 
 use App\Http\Controllers\Controller;
+use App\Mail\AppointmentEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -44,12 +45,7 @@ class HomepageController extends Controller
             'devicePhoto' => $request->devicePhoto
         ];
 
-        Mail::send('homepage.appointmentcontent', $data, function ($message) use ($data){
-            $message->to('o.lermovenz@gmail.com')->subject('awdawdawd')
-                    ->attach($data['devicePhoto']->getRealPath(), [
-                        'as' => $data['devicePhoto']->getClientOriginalName()
-                    ]);
-        });
+        Mail::to('o.lermovenz@gmail.com')->send(new AppointmentEmail($data));
         return redirect(route('thankyou'));
     }
 

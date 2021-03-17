@@ -154,6 +154,7 @@ Homepage
                     <div class="first__column__content">
                         <h1>Broken Smartphone or Tablet?</h1>
                         <h1 class="font-weight-bold">WE CAN FIX THAT!</h1>
+                        <p>Around Bolinao/Anda Pangasinan only</p>
                         <a class="btn btn-danger" href="{{route('make.appointment')}}">Make Appointment</a>
                     </div>
                 </div>
@@ -202,13 +203,12 @@ Homepage
                             <p>Remove iPhone Password</p>
                             <p>Remove Apple ID Lock</p>
                             <p>Remove Google ID Lock</p>
-                            <p>Remove MI Account</p>
                             <p>Remove PIN/Password/Pattern</p>
                             <p>Reformat Laptop</p>
                             <p>Replace LCD & Touchscreen</p>
+                            <p>Replace Battery</p>
                         </div>
                         <div class="col-lg-6">
-                            <p>Replace Battery</p>
                             <p>Openline iPhone/Samsung</p>
                             <p>Reprogram/Reformat</p>
                             <p>Install window 7/8/10</p>
@@ -241,11 +241,11 @@ Homepage
             <div class="questions">
                 <div class="questions__content">
                     <h4 onclick="qtns('answer_1')">&#8594; <span>How long will my repair take?</span> <i class="fa fa-sort-down"></i></h4>
-                    <div class="answer answer_1">&#10003; Well that does depend on the nature of the repair. We endeavour to have the diagnosis complete within 24-48 hours. Dependent on the repair or service required it can be less than this.</div>
+                    <div class="answer answer_1">&#10003; Well that does depend on the nature of the repair. We endeavor to have the diagnosis complete within 24-48 hours.</div>
                 </div>
                 <div class="questions__content">
                     <h4 onclick="qtns('answer_2')">&#8594; <span>Do I need to make an appointment to bring my device to you?</span> <i class="fa fa-sort-down"></i></h4>
-                    <div class="answer answer_2">&#10003; Well that does depend on the nature of the repair. We endeavour to have the diagnosis complete within 24-48 hours. Dependent on the repair or service required it can be less than this.</div>
+                    <div class="answer answer_2">&#10003; Well that does depend on the nature of the repair. We endeavor to have the diagnosis complete within 24-48 hours.</div>
                 </div>
                 <div class="questions__content">
                     <h4 onclick="qtns('answer_3')">&#8594; <span>Can you recover data to my hard drive?</span> <i class="fa fa-sort-down"></i></h4>
@@ -269,7 +269,7 @@ for a quick quote, we have the majority of laptop screens in stock and can norma
                     <img class="img-fluid mb-2" src="{{asset('images_assets/section3/step1.png')}}" alt="steps">
                     <h3>First step</h3>
                     <h4 class="text-danger">Tell us your Issue.</h4>
-                    <p>Help us detailing the device problem to get it working properly again</p>
+                    <p>Help us by detailing the device problem.</p>
                 </div>
                 <div class="col-lg-4 col-6 steps">
                     <img class="img-fluid mb-2" src="{{asset('images_assets/section3/step2.png')}}" alt="steps">
@@ -281,7 +281,7 @@ for a quick quote, we have the majority of laptop screens in stock and can norma
                     <img class="img-fluid mb-2" src="{{asset('images_assets/section3/step3.png')}}" alt="steps">
                     <h3>Third step</h3>
                     <h4 class="text-danger">Bring or courier device</h4>
-                    <p>Handover your device at our office or chooses device pickup, courier and a doorstep service.</p>
+                    <p>Handover your device at our office.</p>
                 </div>
             </div>
         </div>

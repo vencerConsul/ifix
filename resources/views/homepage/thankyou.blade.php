@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Thankl you
+Thank you
 @endsection
 
 @section('thankyoustyle')
@@ -32,6 +32,7 @@ Thankl you
             <div class="thankyou-content">
                 <img src="{{asset('images_assets/appointment/thankyou.png')}}" alt="thankyou">
                 <h1>Thank you</h1>
+                <h5>Contact <a href="https://www.facebook.com/FakeZone18">Ian Magrata</a> for more info.</h5>
                 <a class="btn btn-primary" href="{{ url('/') }}">Back to homepage</a>
             </div>
         </div>

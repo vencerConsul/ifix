@@ -19,10 +19,11 @@
                     <a class="nav-link" href="@if(Route::current()->getName() == 'make.appointment') {{url('/')}} @else #banner @endif">Home</a>
                 </li>
                 <li class="nav-item">
+                    @if(Route::current()->getName() == 'make.appointment')
+
+                    @else
                     <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link appointments__button text-white" href="">Contact Us</a>
+                    @endif
                 </li>
             </ul>
         </div>

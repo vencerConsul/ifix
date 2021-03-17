@@ -122,6 +122,7 @@
                   "
                 >
                   {{$data['address']}}
+                  <h5>{{$data['price']}}</h5>
                 </p>
               </td>
             </tr>

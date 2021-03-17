@@ -32,12 +32,19 @@ class HomepageController extends Controller
             'devicePhoto' => 'required|Image|mimes:jpg,png'
         ]);
 
+        if($request->price == 'Price will be discuss by <a href='){
+            $price = 'Will be discuss.';
+        }else{
+            $price = $request->price;
+        }
+
         $data = [
             'firstname' => $request->firstname,
             'lastname' => $request->lastname,
             'email' => $request->email,
             'phone' => $request->phone,
             'address' => $request->address,
+            'price' => $price,
             'issue' => $request->issue,
             'problem' => $request->problem,
             'device_type' => $request->device_type,

@@ -9,6 +9,8 @@
 
     <title>@yield('title')</title>
 
+    <link rel="shortcut icon" href="/images_assets/Group 91.png" type="image/x-icon">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
